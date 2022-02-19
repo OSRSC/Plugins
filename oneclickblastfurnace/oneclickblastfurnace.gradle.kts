@@ -25,10 +25,10 @@ import ProjectVersions.openosrsVersion
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-version = "2.1.2"
+version = "1.0"
 
-project.extra["PluginName"] = "One Click Blast Furnace" // This is the name that is used in the external plugin manager panel
-project.extra["PluginDescription"] = "Provides bars" // This is the description that is used in the external plugin manager panel
+project.extra["PluginName"] = "One Click Herb" // This is the name that is used in the external plugin manager panel
+project.extra["PluginDescription"] = "Herb" // This is the description that is used in the external plugin manager panel
 
 dependencies {
     annotationProcessor(Libraries.lombok)
